@@ -1,0 +1,7 @@
+requests
+feedparser
+python-telegram-bot
+python-dotenv
+beautifulsoup4
+openai
+curl_cffi
