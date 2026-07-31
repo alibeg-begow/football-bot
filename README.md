@@ -47,7 +47,7 @@ The pipeline is fully modular, using SQLite (in WAL mode) to prevent locking iss
 Clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/yourusername/football-bot.git
+git clone https://github.com/alibeg-begow/football-bot.git
 cd football-bot
 
 # Create and activate virtual environment
