@@ -122,6 +122,26 @@ Users can interact with the bot using the `/start` command to view upcoming matc
 
 ---
 
+## 🧪 Testing
+
+The project includes a robust test suite for its core algorithms and database interactions. Tests are written using `pytest`.
+
+To run the tests:
+
+```bash
+# Make sure you have activated your virtual environment
+pip install pytest
+
+# Run the entire test suite
+pytest tests/
+```
+
+Currently covered modules:
+- `shared/prediction_model.py`: Validates Poisson distribution logic, threshold metrics, expected goals calculations, and edge-cases.
+- `shared/db.py`: Verifies SQLite schema creation, data insertion, and update handlers correctly utilizing WAL mode.
+
+---
+
 ## ⚠️ Disclaimer
 
 This is a Minimum Viable Product (MVP) developed for educational, research, and portfolio purposes. Football match predictions and betting odds are highly volatile and subject to unpredictable real-world factors. Do not use this tool for financial advice or real-money betting.
